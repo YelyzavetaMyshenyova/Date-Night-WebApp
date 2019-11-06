@@ -4,7 +4,7 @@ html,body{
 font-family: 'Lora', serif;
 font-style: italic;
 font-weight: bold;
-
+color: #dfa7a7a;
 }
 p{
   margin-left: 29%;
@@ -27,13 +27,15 @@ font-weight:800;
 
 }
 .stay{
-
+color: #dfa7a7a;
 }
 .surprise{
     margin-left:45.9%;
+  color: #dfa7a7a;
 }
 .out{
     margin-left: 65%;
+  color: #dfa7a7a;
 }
 h1{
 text-align: center;
