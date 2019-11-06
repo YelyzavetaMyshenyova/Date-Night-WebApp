@@ -1,9 +1,9 @@
 html,body{
   height:96%;
   width:99%;
-font-family: 'Playfair Display', serif;
+font-family: 'Lora', serif;
 font-style: italic;
-font-weight: normal;
+font-weight: bold;
 
 }
 p{
@@ -12,7 +12,7 @@ p{
 text-align: center;
 position: absolute;
 z-index: 1;
-color: white;
+color: #dfa7a7a;
 font-size: 120%;
 font-weight:800;
 }
@@ -42,12 +42,13 @@ text-align: center;
 }
 
 #stayin{
+outline: 4px solid #c7d0d8;
 z-index: -1;
 margin-left:24.5%;
   margin-top: 6.7%;
   margin-right: 3%;
   display:inline-block;
-background-color: #ff9a9a;
+background-color: white;
 width: 15%;
 
 height: 53%;
@@ -55,12 +56,13 @@ height: 53%;
 
 
 #surprise{
+  outline: 4px solid #c7d0d8;
 z-index: -1;
     margin-right: 3%;
 margin-right: 3%;
   margin-top: 6.7%;
     display:inline-block;
-  background-color: #bf2424;
+  background-color:white;
   width: 15%;
   height: 53%;
 
@@ -68,10 +70,11 @@ margin-right: 3%;
 
 
 #goout{
+  outline: 4px solid #c7d0d8;
 z-index: -1;
   margin-top: 6.7%;
     display:inline-block;
-  background-color: #682480;
+  background-color:white;
   width: 15%;
   height: 53%;
 
