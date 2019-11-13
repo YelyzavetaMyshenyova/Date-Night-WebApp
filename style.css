@@ -1,7 +1,3 @@
-h1{
-  color:#DFA7A7;
-  font-style: italic;
-}
 
 html,body{
   height:96%;
@@ -9,7 +5,13 @@ html,body{
 font-family: 'Lora', serif;
 font-style: italic;
 font-weight: bold;
-color: #dfa7a7a;
+}
+h1{
+text-align: center;
+  display:block;
+  margin-top: 3.7%
+  color:#DFA7A7;
+  font-style: italic;
 }
 p{
   font-style: italic;
@@ -42,11 +44,7 @@ color: #dfa7a7a;
     margin-left: 65%;
   color: #dfa7a7a;
 }
-h1{
-text-align: center;
-  display:block;
-  margin-top: 3.7%
-}
+
 
 #stayin{
   text-align: center;
@@ -93,8 +91,6 @@ color: #BE1931;
 color: #BE1931;
   font-style: normal;
   font-weight: 100;
-
-
 }
 #surprise{
   outline: 4px solid #c7d0d8;
@@ -119,4 +115,103 @@ z-index: -1;
   width: 15%;
   height: 53%;
 
+}
+
+@media only screen and (max-width: 900px) {
+
+  .heart{
+    font-size: 200px;
+
+  }
+
+  .qm{
+    font-size: 190px;
+
+  }
+  .ot{
+    font-size: 190px;
+
+  }
+
+  #stayin{
+margin-left:19.5%;
+  width: 20%;
+
+  }
+  #surprise{
+
+    width: 20%;
+
+
+  }
+  #goout{
+
+    width: 20%;
+
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  html,body{
+    height:100%;
+    width:100%;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: bold;
+  }
+  #text{
+    display: none;
+  }
+  p{
+       display: none;
+     }
+
+  #stayin{
+    display: block;
+  margin: 0 auto;
+  margin-top: 6%;
+  width: 80%;
+height:100px;
+  }
+  #surprise{
+
+    display: block;
+  margin: 0 auto;
+    margin-top: 6%;
+    width: 80%;
+  height:100px;
+
+  }
+  #goout{
+
+    display: block;
+  margin: 0 auto;
+    margin-top: 6%;
+    width: 80%;
+  height:100px;
+  }
+  .heart{
+       display: none;
+  }
+
+  .qm{
+   display: none;
+
+  }
+  .ot{
+       display: none;
+
+  }
+  .stay{
+         display: none;
+
+  }
+  .surprise{
+         display: none;
+
+  }
+  .out{
+         display: none;
+
+  }
 }
