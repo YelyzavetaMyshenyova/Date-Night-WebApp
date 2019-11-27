@@ -19,7 +19,9 @@ img {
         text-align: center;
         margin: auto;
   }
-
+label{
+  display:block;
+}
 #text{
     margin-right: 4%;
     margin-left: 4%;
