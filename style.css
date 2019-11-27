@@ -20,3 +20,14 @@ margin: 2.8%;
   display: inline-block;
   text-align: center;
 }
+
+#text{
+  font-size: 145%;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+  color:#DFA7A7;
+}
