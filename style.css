@@ -31,3 +31,15 @@ margin: 2.8%;
     justify-content: center;
   color:#DFA7A7;
 }
+
+@media only screen and (max-width: 500px) {
+  img {
+      display:block;
+        text-align: center;
+        margin: auto;
+  }
+  .cards{
+margin: auto;
+    text-align: center;
+  }
+}
