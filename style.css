@@ -4,6 +4,7 @@ font-style: italic;
 font-weight: bold;
 }
 h1{
+    font-size: 156%;
 text-align: center;
   display:block;
   margin-top: 3.7%;
@@ -15,18 +16,16 @@ color:#DFA7A7;
   text-align: center;
 }
 img {
-      width: 38%;
+      width: 33%;
       display:block;
         text-align: center;
         margin: auto;
-      margin-top: 3%;
+      margin-top: 2.5%;
   }
 label{
   display:block;
 }
 #text{
-    margin-right: 4%;
-    margin-left: 4%;
   font-size: 156%;
     height: 80%;
     width: 100%;
@@ -45,5 +44,7 @@ margin: 2.8%;
   display: inline-block;
   text-align: center;
 }
-  
+  h1{
+    font-size:156%;
+  }
 }
