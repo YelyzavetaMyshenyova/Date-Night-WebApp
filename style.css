@@ -51,5 +51,7 @@ margin: 2.8%;
   }
     #text{
           font-size: 156%;
+            position: fixed;
+            margin:0;
     }
 }
