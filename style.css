@@ -4,7 +4,7 @@ font-style: italic;
 font-weight: bold;
 }
 h1{
-    font-size: 171%;
+    font-size: 190%;
 text-align: center;
   display:block;
   margin-top: 3.7%;
@@ -26,7 +26,7 @@ label{
   display:block;
 }
 #text{
-  font-size: 156%;
+   font-size: 190%;
     height: 80%;
     width: 100%;
     display: flex;
@@ -47,4 +47,7 @@ margin: 2.8%;
   h1{
     font-size:171%;
   }
+    #text{
+          font-size: 156%;
+    }
 }
